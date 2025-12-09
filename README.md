@@ -49,3 +49,38 @@ Clone:
 ```bash
 git clone https://github.com/Abdalkadershmaa/AetherRecon.git
 cd AetherRecon
+(Optional but recommended)
+
+bash
+Copy code
+export GITHUB_TOKEN="ghp_xxxxxxxxxxxxxxxxx"
+▶️ Usage
+bash
+Copy code
+python3 run_bb_max.py target.com
+Example:
+
+bash
+Copy code
+python3 run_bb_max.py mars.com
+📂 Output
+Results saved to:
+
+bash
+Copy code
+outputs/final_YYYY-MM-DD_HH-MM-SS.txt
+Next steps:
+
+bash
+Copy code
+cat outputs/final_*.txt | dnsx -silent
+cat outputs/final_*.txt | httpx -silent
+⚠️ Legal Disclaimer
+This tool is intended for authorized security testing only.
+You are responsible for ensuring you have permission to scan the target.
+
+⭐ Why AetherRecon?
+Not faster.
+Smarter.
+Cleaner.
+Real recon.
