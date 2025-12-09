@@ -1,6 +1,16 @@
+# Outputs
 outputs/
 *.log
-*.env
+
+# Python
 __pycache__/
+*.pyc
 venv/
+
+# Secrets
+.env
+config.yaml
+
+# OS
+.DS_Store
 
